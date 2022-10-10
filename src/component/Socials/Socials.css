@@ -1,0 +1,18 @@
+/* === SOCIAL MEDIA ICONS */
+.socials {
+    display: flex;
+    gap: 0.8rem;
+}
+.socials a{
+	background: rgba(0, 0, 0, 0.306);
+	padding: 0.9rem;
+    border: .1px solid transparent;
+	border-radius: 50%;
+	display: flex;
+	font-size: 1.1rem;
+	transition: var(--transition);
+}
+.socials a:hover{
+	background: transparent;
+    border-color: #fff;
+}

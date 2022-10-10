@@ -1,0 +1,25 @@
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 390px), screen and (max-height: 851px) {
+    .about {
+        overflow-y: scroll;
+        height: 40vh;
+    }
+}
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 375px) {
+    .about {
+        height: 30vh;
+    }
+    .about-section-h2{
+        font-size: 1.5rem;
+    }
+    .about-section-p{
+        font-size: 0.7rem;
+    }
+}
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 360px) {
+    .about {
+        padding: 1rem 0.5rem;
+    }
+}

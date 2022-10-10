@@ -1,0 +1,26 @@
+/* === RESUME SKILLS === */
+.skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;
+}
+.skill-card{
+    text-align: center;
+    border: 0.5px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem .5rem;
+    background: rgba(255, 255, 255, 0.24);
+
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    
+    transition: var(--transition);
+}
+.skill-card:hover{
+    background: transparent;
+    border-color: var(--color-contrast);
+}
+.skill_name{
+    font-size: var(--badge-font);
+    color: var(--color-light);
+}

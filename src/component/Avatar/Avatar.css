@@ -1,0 +1,36 @@
+/* AVATAR */
+.avatar{
+	text-align: center;
+	height: 250px;
+	width: auto;
+	position: relative;
+	margin-bottom: 3.5rem;
+}
+.avatar::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: calc(50% - 0.1px);
+    bottom: calc(-3.5rem - 0.1px);
+    width: 1px;
+    height: 3.5rem;
+    background: #ffffff8a;
+}
+.avatar-img{
+	height: 100%;
+	border-radius: 50%;
+	border: 0.3px solid rgb(205, 213, 219);
+}
+  
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 600px) {
+	.avatar {
+		height: 200px;
+	}
+}
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 380px) {
+	.avatar {
+		height: 150px;
+	}
+}

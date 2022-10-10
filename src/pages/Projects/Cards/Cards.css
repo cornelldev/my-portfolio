@@ -1,0 +1,81 @@
+/* === PORTFOLIO CARDS === */
+.portfolio_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+/* PORTFOLIO CARD COMPONENT */
+.portfolio_card{
+    padding: 1.5rem;
+    padding-bottom: 60px;
+    transition: var(--transition);
+    border: 0.1px solid transparent;
+}
+.portfolio_card_image_scroll{
+    height: 200px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    overflow-y: scroll;
+}
+.portfolio_card_image{
+    width: 100%;
+    border-radius: 1rem;
+}
+.portfolio_card:hover{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.portfolio_card_summary, .project_tech{
+    margin-top: 1rem;
+}
+/* === PROJECT TECH STACK */
+.tech_list_item{
+    display: inline-block;
+    margin: 0 0.5rem;
+    border-bottom: 0.1px dotted #fff;
+    font-size: 0.5rem;
+}
+.project_btn1, .project_btn2{
+    padding: 0.2rem 0.6rem;
+    margin: 1rem 0.5rem;
+    position: fixed;
+    bottom: 0;
+}
+.project_btn1{
+    left: 50%;
+}
+.project_btn2{
+    right: 50%;
+}
+
+/* =========== MEDIA QUERIES (MEDIUM SCREENS) ============= */
+@media screen and (max-width: 1024px) {
+    .portfolio_cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+    }
+  }
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 600px), screen and (max-height: 851px) {
+    .portfolio_cards{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+    }
+}
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 375px) {
+    .portfolio_card_image_scroll {
+        height: 200px;
+    }
+    .project_tech{
+        margin-top: 0.5rem;
+    }
+    .project_btn{
+        margin: 0.5rem inherit;
+    }
+  }

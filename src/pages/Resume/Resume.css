@@ -1,0 +1,29 @@
+/* RESUME PAGE */
+.resume{
+  height: 80vh;
+  overflow-y: scroll;
+}
+.resume_sections{
+  margin-top: 2.5rem;
+}
+.resume_sections_title{
+  margin-bottom: 1rem;
+}
+.resume_sections_title::after{
+  content: '';
+  display: block;
+  position: absolute; 
+  width: 70px;
+  height: 1px;
+  background: var(--color-primary-variant);
+}
+.resume-btn{
+  margin:3.5rem 0;
+}
+
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 600px), screen and (max-height: 851px) {
+  .resume {
+    height: 70vh;
+  }
+}

@@ -1,0 +1,32 @@
+/* === RESUME EXPERIENCE === */
+.experience{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+/* === RESUME EXPERIENCE === */
+.experience_card_title{
+    display: flex;
+    gap: 1.5rem;
+}
+.experience_card_title_icon{
+    color: var(--color-primary-variant);
+    font-size: var(--h3-font);
+}
+.experience_card_description{
+    border-left: 0.1px solid;
+    padding-left: 2rem;
+    margin-left: 0.5rem;
+}
+.job-date{
+    margin: 0.5rem 0;
+    color: var(--color-light);
+    font-size: var(--badge-font);
+}
+/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
+@media screen and (max-width: 600px) {
+    .job-description{
+        font-size: 0.7rem
+    }
+}
+

@@ -1,0 +1,35 @@
+.contact_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.contact-info_list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact_info_list_item{
+    display: flex;
+    gap: 2rem;
+}
+.conatct_info_icon{
+    font-size: 1.5rem;
+}
+.contact_social_media>*{
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.contact_social_media::before, .contact_social_media::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.1rem;
+    background: #ffffff8a;
+}
+/* =========== MEDIA QUERIES (MEDIUM SCREENS) ============= */
+@media screen and (max-width: 600px) {
+    .contact_info{
+        flex-direction: column;
+    }
+}

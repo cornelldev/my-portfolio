@@ -1,0 +1,13 @@
+.education{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.education_card{
+    margin-top: 1rem;
+}
+.education-date{
+    color: var(--color-light);
+    font-size: var(--badge-font);
+    padding: 0.5rem 0;
+}
