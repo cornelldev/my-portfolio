@@ -163,7 +163,7 @@ a:hover{
 @media screen and (max-width: 600px) {
   body{
     display: block;
-    padding-top: 4rem;
+    padding-top: 5rem;
   }
   .container {
     width: var(--sm-screen-width);
