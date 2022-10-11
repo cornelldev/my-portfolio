@@ -1,11 +1,10 @@
 import React from 'react'
 import Avatar from '../../component/Avatar/Avatar'
-import Fade from 'react-reveal/Fade';
 import './About.css'
 
 const About = () => {
   return (
-    <Fade bottom>
+    <>
       {/* ABOUT PAGE AVATAR */}
       < Avatar />
 
@@ -20,7 +19,7 @@ const About = () => {
       </div>
 
 
-    </Fade>
+    </>
     
   )
 }

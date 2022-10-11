@@ -3,12 +3,11 @@ import Experience from './Experience/Experience'
 import Skills from './Skills/Skills'
 import Education from './Education/Education'
 import CV from '../../assets/cv.pdf'
-import Fade from 'react-reveal/Fade';
 import './Resume.css'
 
 const Resume = () => {
   return (
-    <Fade bottom>
+    <>
       {/* === RESUME PAGE === */}
       <div className='container resume dark-bg'>
         <h2 className='center'>Resume</h2>
@@ -34,7 +33,7 @@ const Resume = () => {
         <a href={CV} download className='btn resume-btn'>Get Resume</a>
       </div>
       
-    </Fade>
+    </>
   )
 }
 

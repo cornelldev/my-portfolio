@@ -17,7 +17,7 @@
 
   --primary-font: 0.9rem;
   --h1-font: 2.5rem;
-  --h2-font: 1.8rem;
+  --h2-font: 2rem;
   --h3-font: 1.2rem;
   --h4-font: 0.8rem;
   --h5-font: 0.5rem;
@@ -160,14 +160,9 @@ a:hover{
   }
   .container {
     width: var(--sm-screen-width);
+    padding: 2rem 1rem;
   }
   .btn {
     padding: 0.1rem 0.4rem;
-  }
-}
-/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
-@media screen and (max-width: 375px) {
-  .container {
-    padding: 2rem 1rem;
   }
 }
