@@ -8,7 +8,7 @@ const Bio = () => {
         <div className="bio dark-bg">
              <h4 className="text-light">Hi, I'm</h4>
              <h1>Cornell</h1>
-             <h4 className="text-light">A Full-Stack Engineer</h4>
+             <h4 className="text-light">A Frontend Engineer</h4>
              < Socials />
            
         </div>

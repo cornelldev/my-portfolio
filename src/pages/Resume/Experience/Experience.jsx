@@ -40,12 +40,12 @@ const Experience = () => {
   return (
     <>
         {/* === RESUME EXPERIENCE === */}
-        <div class="experience">
+        <div className="experience">
             {/* === EXPERIENCE CARD COMPONENT === */}
           {
             experienceArray.map(({id, employer, title, date, summary}) => {
               return (
-                <div key={id} class="experience_card">
+                <div key={id} className="experience_card">
                   <div className="experience_card_title">
                       <i className='experience_card_title_icon'> < IoIosCheckmarkCircleOutline /> </i>
                       <h4>{title}</h4>

@@ -6,9 +6,11 @@ const Projects = () => {
   return (
     <>
     {/* PROJECTS PAGE */}
-    <div className='container projects'>
-        <h2 className='center'>Projects</h2>
-        < Card />
+    <div className='container projects_container'>
+        <h2 className='center projects_h2'>Projects</h2>
+        <div className="container_inner">
+          < Card />
+        </div>
     </div>
     </>
   )

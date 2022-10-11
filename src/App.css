@@ -1,35 +1,18 @@
 /* === CREDIT === */
-.credit, .home-btn{
-  position: absolute;
+.credit{
+  position: fixed;
   bottom: 1rem;
 }
 .credit{
   left: 2rem;
   color: var(--color-light);
 }
-
-/* == HOME BUTTON */
-/* .home-btn{
-    right: 2rem;
-} */
-
 /* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
   @media screen and (max-width: 825px) {
-	.home-btn {
-    top: 1rem;
-    bottom: unset;
-  }
   .credit {
     left: 50%;
     transform: translateX(-50%);
     bottom: 0.2rem;
     font-size: .5rem;
-	  }
-}
-  /* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
-@media screen and (max-width: 380px) {
-  .home-btn{
-    top: 0.1rem;
-    right: 0.1rem;
-  }
+	}
 }

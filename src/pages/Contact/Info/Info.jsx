@@ -3,12 +3,12 @@ import { GoLocation } from 'react-icons/go'
 import { AiOutlinePhone } from 'react-icons/ai'
 import { FaEnvelope } from 'react-icons/fa'
 import Socials from '../../../component/Socials/Socials'
-import './Form.css'
+import './Info.css'
 
-const Form = () => {
+const Info = () => {
   return (
     <>
-        {/* CONTACT FORM  */}
+        {/* CONTACT INFO  */}
         <div className="contact_info">
 
             <ul className="contact-info_list">
@@ -37,4 +37,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default Info

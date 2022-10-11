@@ -7,8 +7,8 @@ const Home = () => {
   return (
     // === HOME PAGE ===
     <div className='home'>
-        < Avatar />
-        < Bio />       
+      < Avatar />
+      < Bio />       
     </div>
   )
 }

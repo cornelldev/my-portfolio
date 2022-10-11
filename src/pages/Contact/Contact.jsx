@@ -1,14 +1,16 @@
 import React from 'react'
-import Form from './Form/Form'
+import Info from './Info/Info'
 import './Contact.css'
 
 const Contact = () => {
   return (
     <>
       {/* === CONTACT PAGE === */}
-      <div className='container contact dark-bg'>
+      <div className='container contact_container dark-bg'>
         <h2 className="center">Contact</h2>
-        < Form />
+        <div className="container_inner">
+          < Info />
+        </div>
       </div>
     </>
   )

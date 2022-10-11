@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaReact, FaNodeJs, FaDatabase, FaGithub } from 'react-icons/fa'
+import { FaReact, FaGithub } from 'react-icons/fa'
 import { IoLogoJavascript  } from 'react-icons/io'
-import { SiTypescript, SiPostgresql, SiRedux, SiJquery } from 'react-icons/si'
+import { SiTypescript, SiRedux, SiJquery } from 'react-icons/si'
 import { BiGitMerge } from 'react-icons/bi'
 import './Skills.css'
 
@@ -25,18 +25,6 @@ const Skills = () => {
           < FaReact />
           <p className="skill_name">ReactJS
           <br /><span>< SiRedux /> ReduxJS</span>
-          </p>
-        </li>
-        <li className="skill-card node">
-          < FaNodeJs />
-          <p className="skill_name">NodeJS
-          <br /><span> Express</span>
-          </p>
-        </li>
-        <li className="skill-card sql">
-          < FaDatabase />
-          <p className="skill_name">SQL
-          <br /><span>< SiPostgresql /> Postgresql</span>
           </p>
         </li>
         <li className="skill-card git">

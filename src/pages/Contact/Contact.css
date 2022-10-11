@@ -1,9 +1,10 @@
-.contact{
+.contact_container{
     width: 75vw;
+    padding-bottom: 2rem;
 }
 /* =========== MEDIA QUERIES (MEDIUM SCREENS) ============= */
 @media screen and (max-width: 600px) {
-    .contact{
+    .contact_container{
         width: var(--sm-screen-width);
     }
 }

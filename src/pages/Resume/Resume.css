@@ -1,9 +1,9 @@
 /* RESUME PAGE */
-.resume{
+.resume_container{
   height: 80vh;
   overflow-y: scroll;
 }
-.resume_sections{
+.resume_sections, .resume-btn{
   margin-top: 2.5rem;
 }
 .resume_sections_title{
@@ -17,13 +17,9 @@
   height: 1px;
   background: var(--color-primary-variant);
 }
-.resume-btn{
-  margin:3.5rem 0;
-}
-
 /* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
 @media screen and (max-width: 600px), screen and (max-height: 851px) {
-  .resume {
+  .resume_container {
     height: 70vh;
   }
 }

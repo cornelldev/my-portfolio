@@ -1,4 +1,7 @@
-.projects{
+.projects_container{
     height: 80vh;
     overflow-y: scroll;
+}
+.projects_h2{
+    position: unset;
 }

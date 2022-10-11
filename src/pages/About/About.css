@@ -1,6 +1,10 @@
+.about-section-p{
+    padding: 3rem;
+}
+
 /* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
 @media screen and (max-width: 600px), screen and (max-height: 851px) {
-    .about {
+    .about_container {
         overflow-y: scroll;
         height: 40vh;
     }
@@ -12,11 +16,6 @@
     }
     .about-section-p{
         font-size: 0.7rem;
-    }
-}
-/* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
-@media screen and (max-width: 360px) {
-    .about {
         padding: 1rem 0.5rem;
     }
 }
