@@ -8,8 +8,8 @@ const Socials = () => {
   return (
     // === SOCIAL MEDIA ICONS ===
     <div className='socials'>
-      <a href="https://twitter.com/corneldev" target="_blank" rel="noreferrer">< RiLinkedinLine /></a>
-      <a href="https://linkedin.com/mrcornelius" target="_blank" rel="noreferrer">< FiTwitter /></a>
+      <a href="https://www.linkedin.com/in/mrcornelius" target="_blank" rel="noreferrer">< RiLinkedinLine /></a>
+      <a href="https://twitter.com/corneldev" target="_blank" rel="noreferrer">< FiTwitter /></a>
       <a href="https://github.com/cornelldev" target="_blank" rel="noreferrer">< VscGithub /></a>
     </div>
   )
