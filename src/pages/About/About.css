@@ -12,11 +12,12 @@
         font-size: 1.5rem;
     }
     .about-section-p{
-        font-size: 0.7rem;
         padding: 1rem 0.5rem;
     }
 }
 /* =========== MEDIA QUERIES (SMALL SCREENS) ============= */
 @media screen and (max-width: 375px) {
-   
+    .about-section-p{
+        font-size: 0.7rem;
+    }
 }
